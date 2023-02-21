@@ -1,0 +1,58 @@
+//imports
+
+@import "./variables/vars";
+@import "./html/home";
+
+
+
+//nesting
+
+/*RESET*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box ;  
+}
+
+/* ESTILOS GENERALES*/
+/*LOGO PRINCIPAL*/
+.logo{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+/*ESTILOS GENERALES DEL HEADER*/
+header{
+    display: flex;
+    justify-content: center;
+    color: $color-principal;
+    background: linear-gradient($color-terciario, $color-secundario);
+}
+/*ESTILOS GENERAL DEL MAIN*/
+main {
+    background-color: #E5E5E5;
+}
+main .volver{
+        margin-bottom: 3rem;
+        text-align: center;
+        color: $color-principal;
+        text-decoration: none;
+    }
+
+
+
+/*ESTILOS GENERALES DE FOOTER*/
+
+footer{
+    width: 100%;
+    padding-top: 1px;
+    text-align: center;
+    background-color: black;
+    color: $color-principal
+}
+
+
+
+
+
