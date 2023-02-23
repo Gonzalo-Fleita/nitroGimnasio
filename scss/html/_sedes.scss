@@ -1,0 +1,27 @@
+//imports
+
+@import "../utilidades/mixin.scss";
+
+@import "../utilidades/extend.scss";
+
+@import "../variables/vars";
+
+/*ESTILOS DE MAIN (SEDES)*/
+
+main .uno{
+    text-align: center;
+    font-size: x-large;}
+
+    .contenedor{
+        @include grids;
+        margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 3rem;
+    gap: 16rem;
+    .sedes{
+        @extend %bordes;
+    }
+}
+   
+
+

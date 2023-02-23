@@ -1,0 +1,8 @@
+/*mediaqueries*/
+
+/*mq celu*/
+@media screen and (max-width:480px){
+    .boxeo, .kickboxing, .spinning, .zumba, .funcional{
+        grid-template-columns: 1fr;
+}
+}

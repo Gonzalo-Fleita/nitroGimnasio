@@ -1,17 +1,29 @@
 //imports
-@import "variables/_vars.scss/";
 
-/*ESTILOS DEL MAIN (HOME)*/
+@import "../variables/vars";
 
-main h1{
-    margin: 25px;
-    font-size: xx-large;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-}
-.parrafo { 
-    text-align: center;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 20px;
-    margin: 25px;
-}
+/*ESTILOS DEL MAIN (HOME) */
+
+main{
+    h1{
+        font-size: xx-large;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        color: black;
+    }
+    .parrafo{
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 20px;
+        margin: 25px;
+        color: black;
+    }
+    .parrafo-1{
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 20px;
+        margin: 25px;
+        color: $color-principal;
+        
+    }
+    }

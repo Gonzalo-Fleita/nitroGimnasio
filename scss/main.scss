@@ -1,18 +1,27 @@
-//imports
-
-@import "./variables/vars";
-@import "./html/home";
-
-
-
-//nesting
-
 /*RESET*/
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box ;  
 }
+
+//imports
+
+@import "./variables/vars";
+
+@import "./html/home";
+
+@import "./html/actividades";
+
+@import "./html/beneficios";
+
+@import "./html/sedes";
+
+@import "./html/cronogramas";
+
+@import "./variables/media.scss";
+
+//nesting
 
 /* ESTILOS GENERALES*/
 /*LOGO PRINCIPAL*/
@@ -28,13 +37,13 @@ header{
     justify-content: center;
     color: $color-principal;
     background: linear-gradient($color-terciario, $color-secundario);
+  
 }
 /*ESTILOS GENERAL DEL MAIN*/
 main {
-    background-color: #E5E5E5;
+    background: $color-secundario
 }
 main .volver{
-        margin-bottom: 3rem;
         text-align: center;
         color: $color-principal;
         text-decoration: none;

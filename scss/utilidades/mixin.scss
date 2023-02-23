@@ -1,0 +1,33 @@
+//mixin sin parametros
+
+@mixin grids-1 {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+@mixin texto-1{
+    margin: 50px;
+    text-align: center;
+    font-size: x-large;
+    grid-template-rows: 1fr;
+    color: black;
+    list-style: none;
+}
+@mixin grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@mixin zone{
+    justify-content: center;
+    border:2px solid black;
+    margin-left: 30rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+//mixin con parametros
+
+
+
+

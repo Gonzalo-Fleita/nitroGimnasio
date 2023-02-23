@@ -1,0 +1,39 @@
+//import
+@import "../variables/vars";
+
+@import "../utilidades/mixin.scss";
+
+/*ESTILOS DE MAIN (CRONOGRAMAS)*/
+
+main h1{
+        text-align: center;}
+        .crono{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .sucu{
+        text-align: center;
+        .gba{
+            @include zone;
+            td{
+                text-align: center;
+                color: $color-principal;
+                background-color: black;
+            }
+        }
+        .caba{
+            @include zone;
+            td{
+                text-align: center;
+                color: $color-principal;
+                background-color: black;
+            }
+            th{
+                background-color: $color-principal;
+            }
+          
+        }
+
+    }
+
+   

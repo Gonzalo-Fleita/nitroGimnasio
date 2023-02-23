@@ -1,0 +1,23 @@
+//imports
+
+@import "../utilidades/mixin.scss";
+
+/*ESTILOS DE MAIN (ACTIVIDADES)*/
+
+main {
+    h2{
+        color: #ff914d;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    }
+   .act-img:hover{
+    box-shadow: 30px 20px 30px black;
+   }
+   .boxeo ,.kickboxing, .spinning, .zumba, .funcional{
+    @include grids-1;
+   }
+   .boxeo-texto, .kick-texto, .spinning-texto, .zumba-texto, .funcional-texto{
+    @include texto-1;
+   }
+}
