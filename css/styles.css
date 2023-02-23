@@ -25,6 +25,12 @@ main .parrafo-1 {
   margin: 25px;
   color: #ff914d; }
 
+/*mediaqueries*/
+/*mq celu*/
+@media screen and (max-width: 480px) {
+  main .socios, main .contenedor, main .boxeo, main .kickboxing, main .spinning, main .zumba, main .funcional {
+    grid-template-columns: 1fr; } }
+
 /*ESTILOS DE MAIN (ACTIVIDADES)*/
 main h2 {
   color: #ff914d;
@@ -101,33 +107,37 @@ main h1 {
 
 .sucu {
   text-align: center; }
-  .sucu .gba {
-    justify-content: center;
-    border: 2px solid black;
-    margin-left: 30rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem; }
-    .sucu .gba td {
-      text-align: center;
-      color: #ff914d;
-      background-color: black; }
-  .sucu .caba {
-    justify-content: center;
-    border: 2px solid black;
-    margin-left: 30rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem; }
-    .sucu .caba td {
-      text-align: center;
-      color: #ff914d;
-      background-color: black; }
-    .sucu .caba th {
-      background-color: #ff914d; }
+
+.gba {
+  justify-content: center;
+  border: 2px solid black;
+  margin-left: 30rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  .gba td {
+    text-align: center;
+    color: #ff914d;
+    background-color: black; }
+  .gba th {
+    background-color: #ff914d; }
+
+.caba {
+  justify-content: center;
+  border: 2px solid black;
+  margin-left: 30rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  .caba td {
+    text-align: center;
+    color: #ff914d;
+    background-color: black; }
+  .caba th {
+    background-color: #ff914d; }
 
 /*mediaqueries*/
 /*mq celu*/
 @media screen and (max-width: 480px) {
-  .boxeo, .kickboxing, .spinning, .zumba, .funcional {
+  main .socios, main .contenedor, main .boxeo, main .kickboxing, main .spinning, main .zumba, main .funcional {
     grid-template-columns: 1fr; } }
 
 /* ESTILOS GENERALES*/

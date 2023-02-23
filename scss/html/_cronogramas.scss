@@ -13,27 +13,29 @@ main h1{
     }
     .sucu{
         text-align: center;
-        .gba{
-            @include zone;
-            td{
-                text-align: center;
-                color: $color-principal;
-                background-color: black;
-            }
+    }
+    .gba{
+        @include zone;
+        td{
+            text-align: center;
+            color: $color-principal;
+            background-color: black;
         }
-        .caba{
-            @include zone;
-            td{
-                text-align: center;
-                color: $color-principal;
-                background-color: black;
-            }
-            th{
-                background-color: $color-principal;
-            }
-          
+        th{
+            background-color: $color-principal
         }
-
+    }
+    .caba{
+        @include zone;
+        td{
+            text-align: center;
+            color: $color-principal;
+            background-color: black;
+        }
+        th{
+            background-color: $color-principal;
+        
+        }
     }
 
    
